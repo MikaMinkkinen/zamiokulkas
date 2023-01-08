@@ -1,0 +1,33 @@
+#---------------------------
+# Themes
+#---------------------------
+# Ignore all themes
+/themes/*
+# Except this one theme
+!/themes/genesis-block-theme
+
+#---------------------------
+# Plugins
+# Check out WPE's Smart
+# Plugin Manager (SMP)
+#---------------------------
+# Ignore all plugins
+/plugins/*
+# Except this one plugin
+!/plugins/genesis-blocks
+
+#---------------------------
+# MU plugins: these are
+# managed by the platform.
+#---------------------------
+/mu-plugins/
+
+#---------------------------
+# Uploads directory
+#---------------------------
+/uploads/
+
+#---------------------------
+# Upgrade files
+#---------------------------
+/upgrade/
