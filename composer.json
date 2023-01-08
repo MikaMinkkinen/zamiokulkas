@@ -2,30 +2,18 @@
     "name": "wpe/wp-content",
     "description": "Tutorial to demonstrate how to manage dependencies with Composer and deploy to WP Engine.",
     "type": "project",
-    "repositories":
-    // {
-    //     "type": "package",
-    //     "package": {
-    //         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-    //         "version": "6.0.5",
-    //         "type": "wordpress-plugin",
-    //         "dist": {
-    //             "type": "zip",
-    //             "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_ACF_KEY}&t={%VERSION}"
-    //         }
-    //     }
-    // },
-    {
-        "type": "composer",
-        "url": "https://wpackagist.org"
-    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
     "require": {
         "composer/installers": "~1.0",
         "ffraenz/private-composer-installer": "^5.0",
         "wpackagist-plugin/duplicate-post": "^4.5",
         "wpackagist-plugin/svg-support": "^2.5.1",
-        "wpackagist-plugin/wordpress-seo": "^19.10",
-        // "advanced-custom-fields/advanced-custom-fields-pro": "*"
+        "wpackagist-plugin/wordpress-seo": "^19.10"
     },
     "extra": {
         "installer-paths": {
@@ -41,8 +29,7 @@
     "license": "GPL-2.0+",
     "config": {
         "allow-plugins": {
-            "composer/installers": true,
-            "ffraenz/private-composer-installer": true
+            "composer/installers": true
         },
         "preferred-install": "dist",
         "sort-packages": true
