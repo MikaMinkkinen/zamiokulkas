@@ -13,7 +13,7 @@
         "ffraenz/private-composer-installer": "^5.0",
         "wpackagist-plugin/duplicate-post": "^4.5",
         "wpackagist-plugin/svg-support": "^2.5.1",
-        "wpackagist-plugin/wordpress-seo": "^19.10"
+        "wpackagist-plugin/wordpress-seo": "^19.10",
     },
     "extra": {
         "installer-paths": {
@@ -29,7 +29,8 @@
     "license": "GPL-2.0+",
     "config": {
         "allow-plugins": {
-            "composer/installers": true
+            "composer/installers": true,
+            "ffraenz/private-composer-installer": true
         },
         "preferred-install": "dist",
         "sort-packages": true
