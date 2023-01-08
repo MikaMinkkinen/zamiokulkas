@@ -1,83 +1,61 @@
-*~
+#---------------------------
+# WordPress general
+#---------------------------
+/index.php
+
+#---------------------------
+# WordPress themes
+#---------------------------
+/themes/*
+!/themes/custom-theme
+
+#---------------------------
+# WordPress plugins
+#---------------------------
+/plugins/*
+!/plugins/custom-plugin
+
+#---------------------------
+# WP MU plugins: these are
+# managed by the platform.
+#---------------------------
+/mu-plugins/
+
+#---------------------------
+# WP uploads directory
+#---------------------------
+/uploads/
+
+#---------------------------
+# WP upgrade files
+#---------------------------
+/upgrade/
+
+#---------------------------
+# OS-specific files
+#---------------------------
 .DS_Store
-.svn
-.cvs
-*.bak
-*.swp
+.Trashes
 Thumbs.db
 
-# wordpress specific
-wp-config.php
-wp-content/uploads/
-wp-content/blogs.dir/
-wp-content/upgrade/*
-wp-content/backup-db/*
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-wp-content/cache/*
-wp-content/cache/supercache/*
+#---------------------------
+# Composer
+#---------------------------
+/vendor
+.env
+.env.*
+!.env.example
 
-# wpengine specific
-.smushit-status
-.gitattributes
-_wpeprivate*
-wp-content/object-cache.php
-wp-content/mu-plugins/mu-plugin.php
-wp-content/mu-plugins/slt-force-strong-passwords.php
-wp-content/mu-plugins/stop-long-comments.php
-wp-content/mu-plugins/force-strong-passwords*
-wp-content/mu-plugins/wpengine-common*
-wp-content/mysql.sql
-wp-content/mu-plugins/wpengine-security-auditor.php
-wp-content/mu-plugins/wpe-wp-sign-on-plugin*
+#---------------------------
+# Smart Plugin Manager
+#---------------------------
+/.logs/
+autoupdater_maintenance_mode_enabled.tmp
 
-# wp core (as of 4.9.5)
-/db-config.php
-/index.php
-/license.txt
-/readme.html
-/wp-activate.php
-/wp-app.php
-/wp-atom.php
-/wp-blog-header.php
-/wp-comments-post.php
-/wp-commentsrss2.php
-/wp-config-sample.php
-/wp-cron.php
-/wp-feed.php
-/wp-links-opml.php
-/wp-load.php
-/wp-login.php
-/wp-mail.php
-/wp-rdf.php
-/wp-rss.php
-/wp-rss2.php
-/wp-pass.php
-/wp-register.php
-/wp-settings.php
-/wp-signup.php
-/wp-trackback.php
-/xmlrpc.php
-/wp-admin
-/wp-includes
-/wp-content/index.php
-/wp-content/themes/twentyten
-/wp-content/themes/twentyeleven
-/wp-content/themes/twentytwelve
-/wp-content/themes/twentythirteen
-/wp-content/themes/twentyfourteen
-/wp-content/themes/twentyfifteen
-/wp-content/themes/twentysixteen
-/wp-content/themes/twentyseventeen
-/wp-content/themes/twentyeighteen
-/wp-content/themes/twentynineteen
-/wp-content/themes/twentytwenty
-/wp-content/themes/index.php
-/wp-content/plugins/index.php
-/wp-content/plugins/akismet*
-
+#---------------------------
 # large/disallowed file types
 # a CDN should be used for these
+#---------------------------
 *.hqx
 *.bin
 *.exe
@@ -110,37 +88,4 @@ wp-content/mu-plugins/wpe-wp-sign-on-plugin*
 *.asf
 *.wmv
 *.avi
-
-#---------------------------
-# Themes
-#---------------------------
-# Ignore all themes
-/themes/*
-# Except this one theme
-!/themes/genesis-block-theme
-
-#---------------------------
-# Plugins
-# Check out WPE's Smart
-# Plugin Manager (SMP)
-#---------------------------
-# Ignore all plugins
-/plugins/*
-# Except this one plugin
-!/plugins/genesis-blocks
-
-#---------------------------
-# MU plugins: these are
-# managed by the platform.
-#---------------------------
-/mu-plugins/
-
-#---------------------------
-# Uploads directory
-#---------------------------
-/uploads/
-
-#---------------------------
-# Upgrade files
-#---------------------------
-/upgrade/
+*.log
