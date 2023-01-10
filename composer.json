@@ -1,6 +1,6 @@
 {
     "name": "wpe/wp-content",
-    "description": "Tutorial to demonstrate how to manage dependencies with Composer and deploy to WP Engine.",
+    "description": "WPE optimized composer",
     "type": "project",
     "repositories": [
         {
