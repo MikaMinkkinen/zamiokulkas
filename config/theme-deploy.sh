@@ -1,1 +1,1 @@
-cd wp-content/themes/zamiokulkas && yarn && composer install --optimize-autoloader --no-dev --no-progress
+cd wp-content/themes/zamiokulkas && touch test.txt
