@@ -5,8 +5,7 @@
  * @package Genesis Block Theme
  */
 
-get_header(); ?>
-
+get_header();?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

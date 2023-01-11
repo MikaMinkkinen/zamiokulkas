@@ -21,12 +21,13 @@
         }
     ],
     "require": {
+        "advanced-custom-fields/advanced-custom-fields-pro": "*",
         "composer/installers": "~1.0",
         "ffraenz/private-composer-installer": "^5.0",
+        "roots/acorn": "^2.1",
         "wpackagist-plugin/duplicate-post": "^4.5",
         "wpackagist-plugin/svg-support": "^2.5.1",
-        "wpackagist-plugin/wordpress-seo": "^19.10",
-        "advanced-custom-fields/advanced-custom-fields-pro": "*"
+        "wpackagist-plugin/wordpress-seo": "^19.10"
     },
     "extra": {
         "installer-paths": {
@@ -47,5 +48,8 @@
         },
         "preferred-install": "dist",
         "sort-packages": true
-    }
+    },
+    "post-autoload-dump": [
+        "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
+    ]
 }
