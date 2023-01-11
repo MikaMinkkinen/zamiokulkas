@@ -1,0 +1,1 @@
+cd wp-content/themes/zamiokulkas && composer install --optimize-autoloader --no-dev --no-progress
