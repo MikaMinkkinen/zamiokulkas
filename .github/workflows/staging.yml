@@ -9,11 +9,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install dependencies
+      - name: Install Composer dependencies
         uses: php-actions/composer@v6
+
+      - name: Install Node.js LTS
+        uses: actions/setup-node@v3
         with:
-          REMOTE_PATH: "wp-content/themes/zamiokulkas/"
-          COMMAND: composer install
+          node-version: "lts/*"
+          cache: "yarn"
+
+      - name: Install Node.js dependencies
+        run: yarn install
 
       - name: GitHub Action Deploy to WP Engine
         uses: wpengine/github-action-wpe-site-deploy@v3
