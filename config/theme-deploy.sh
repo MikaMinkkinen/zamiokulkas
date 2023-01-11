@@ -1,1 +1,1 @@
-cd wp-content/themes/zamiokulkas && touch test.txt
+cd wp-content/themes && touch test.txt
