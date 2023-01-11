@@ -9,18 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install Composer dependencies
-        uses: php-actions/composer@v6
-
-      - name: Install Node.js LTS
-        uses: actions/setup-node@v3
-        with:
-          node-version: "lts/*"
-          cache: "yarn"
-
-      - name: Install Node.js dependencies
-        run: yarn install
-
       - name: GitHub Action Deploy to WP Engine
         uses: wpengine/github-action-wpe-site-deploy@v3
         with:
@@ -32,3 +20,15 @@ jobs:
           FLAGS: -azvr --inplace --delete --include-from config/include.txt --exclude=".*" --exclude-from config/exclude.txt
           PHP_LINT: TRUE
           SCRIPT: wp-content/config/post-deploy.sh
+
+      - name: Install Composer dependencies
+        uses: php-actions/composer@v6
+
+      - name: Install Node.js LTS
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+          cache: "yarn"
+
+      - name: Install Node.js dependencies
+        run: yarn install
