@@ -47,6 +47,12 @@ Thumbs.db
 !.env.example
 
 #---------------------------
+# Other
+#---------------------------
+/ai1wm-backups
+/cache
+
+#---------------------------
 # Smart Plugin Manager
 #---------------------------
 /.logs/
@@ -89,3 +95,4 @@ autoupdater_maintenance_mode_enabled.tmp
 *.wmv
 *.avi
 *.log
+
