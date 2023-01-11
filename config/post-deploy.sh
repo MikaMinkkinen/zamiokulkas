@@ -1,1 +1,1 @@
-cd wp-content && composer install --optimize-autoloader --no-dev --no-progress
+cd wp-content wp-content/themes/zamiokulkas && composer install --optimize-autoloader --no-dev --no-progress

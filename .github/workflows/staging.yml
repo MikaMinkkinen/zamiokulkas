@@ -20,4 +20,3 @@ jobs:
           FLAGS: -azvr --inplace --delete --include-from config/include.txt --exclude=".*" --exclude-from config/exclude.txt
           PHP_LINT: TRUE
           SCRIPT: wp-content/config/post-deploy.sh
-          SAGE: wp-content/config/theme-deploy.sh
