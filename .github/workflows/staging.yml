@@ -9,6 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Install dependencies
+        uses: php-actions/composer@v6
+        with:
+          REMOTE_PATH: "wp-content/themes/zamiokulkas/"
+          COMMAND: composer install
+
       - name: GitHub Action Deploy to WP Engine
         uses: wpengine/github-action-wpe-site-deploy@v3
         with:
