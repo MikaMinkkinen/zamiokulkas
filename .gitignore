@@ -4,10 +4,10 @@
 /index.php
 
 #---------------------------
-# WordPress themes
+# WordPress themes - remember add custom themes and plugins in the config/include.txt file too
 #---------------------------
-/themes/*
-!/themes/zamiokulkas
+/themes/
+!/themes/zamiokulkas/
 
 #---------------------------
 # WordPress plugins
@@ -47,6 +47,12 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+#---------------------------
+# Other
+#---------------------------
+/ai1wm-backups
+/cache
 
 #---------------------------
 # Smart Plugin Manager
@@ -91,3 +97,4 @@ autoupdater_maintenance_mode_enabled.tmp
 *.wmv
 *.avi
 *.log
+

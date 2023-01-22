@@ -1,4 +1,4 @@
-name: Deploy to WP Engine production environment
+name: Deploy to WP Engine staging environment
 on:
   push:
     branches:
