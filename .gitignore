@@ -6,7 +6,9 @@
 #---------------------------
 # WordPress themes
 #---------------------------
-/themes/node_modules/
+/themes/
+!/themes/mm/
+!/themes/zamiokulkas/
 
 #---------------------------
 # WordPress plugins
