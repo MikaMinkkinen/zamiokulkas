@@ -4,10 +4,9 @@
 /index.php
 
 #---------------------------
-# WordPress themes
+# WordPress themes - remember add custom themes and plugins in the config/include.txt file too
 #---------------------------
 /themes/
-!/themes/mm/
 !/themes/zamiokulkas/
 
 #---------------------------
