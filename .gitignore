@@ -8,6 +8,7 @@
 #---------------------------
 /themes/*
 !/themes/zamiokulkas
+!/themes/mm
 
 #---------------------------
 # WordPress plugins
