@@ -37,6 +37,8 @@
 .DS_Store
 .Trashes
 Thumbs.db
+/cache/
+/ai1wm-backups/
 
 #---------------------------
 # Composer
