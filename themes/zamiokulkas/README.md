@@ -16,10 +16,6 @@
   <a href="https://github.com/roots/sage/actions">
     <img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/roots/sage/main.yml?branch=master&style=flat-square" />
   </a>
-
-  <a href="https://twitter.com/rootswp">
-    <img alt="Follow Roots" src="https://img.shields.io/twitter/follow/rootswp.svg?style=flat-square&color=1da1f2" />
-  </a>
 </p>
 
 <p align="center">
