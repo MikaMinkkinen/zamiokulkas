@@ -7,8 +7,8 @@
 # WordPress themes
 #---------------------------
 /themes/*
-!/themes/zamiokulkas
-!/themes/mm
+!/themes/mm/
+!/themes/zamiokulkas/
 
 #---------------------------
 # WordPress plugins
