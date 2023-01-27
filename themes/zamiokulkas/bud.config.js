@@ -34,7 +34,7 @@ export default async (app) => {
      * Proxy origin (`WP_HOME`)
      * @see {@link https://bud.js.org/docs/bud.proxy/}
      */
-    .proxy('http://zamiokulkas.local')
+    .proxy('http://zamiokulkasstg.wpengine.com/')
 
     /**
      * Development origin
