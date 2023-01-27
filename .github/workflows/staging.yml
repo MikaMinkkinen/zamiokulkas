@@ -25,3 +25,8 @@ jobs:
       - name: Deploy theme assets
         working-directory: themes/zamiokulkas
         run: composer install --no-dev
+
+        # Build plugins/acf-alma-mapbox
+      - name: Run Yarn
+        working-directory: themes/zamiokulkas
+        run: Yarn build
