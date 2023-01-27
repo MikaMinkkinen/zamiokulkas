@@ -29,8 +29,8 @@ jobs:
         # Sage
       - name: Run Yarn
         working-directory: themes/zamiokulkas
-        run: yarn
+        run: yarn install
 
       - name: Run Yarn Build
         working-directory: themes/zamiokulkas
-        run: yarn install && yarn run build:production
+        run: yarn prod
