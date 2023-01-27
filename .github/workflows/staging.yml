@@ -20,3 +20,8 @@ jobs:
           FLAGS: -azvr --inplace --delete --include-from config/include.txt --exclude=".*" --exclude-from config/exclude.txt
           PHP_LINT: FALSE
           SCRIPT: wp-content/config/post-deploy.sh
+
+        # Build plugins/acf-alma-mapbox
+      - name: Deploy theme assets
+        working-directory: themes/zamiokulkas
+        run: composer install --no-dev
