@@ -26,6 +26,11 @@ jobs:
         working-directory: themes/zamiokulkas
         run: composer install --no-dev
 
+        # Sage
+      - name: Run Yarn
+        working-directory: themes/zamiokulkas
+        run: yarn
+
       - name: Run Yarn Build
         working-directory: themes/zamiokulkas
         run: yarn install && yarn run build:production
