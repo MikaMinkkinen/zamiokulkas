@@ -22,15 +22,15 @@ jobs:
           SCRIPT: wp-content/config/post-deploy.sh
 
         # Sage
-      - name: Deploy theme assets
+      - name: Composer install
         working-directory: themes/zamiokulkas
         run: composer install --no-dev
 
         # Sage
-      - name: Run Yarn
+      - name: Yarn
         working-directory: themes/zamiokulkas
-        run: yarn install
+        run: yarn
 
-      - name: Run Yarn Build
+      - name: Yarn build
         working-directory: themes/zamiokulkas
         run: yarn build
