@@ -30,3 +30,7 @@ jobs:
       - name: Run Yarn
         working-directory: themes/zamiokulkas
         run: yarn
+
+      - name: Run Yarn Build
+        working-directory: themes/zamiokulkas
+        run: yarn build
