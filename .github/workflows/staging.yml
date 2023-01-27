@@ -21,16 +21,11 @@ jobs:
           PHP_LINT: FALSE
           SCRIPT: wp-content/config/post-deploy.sh
 
-        # Build plugins/acf-alma-mapbox
+        # Sage
       - name: Deploy theme assets
         working-directory: themes/zamiokulkas
         run: composer install --no-dev
 
-        # Build plugins/acf-alma-mapbox
-      - name: Run Yarn
-        working-directory: themes/zamiokulkas
-        run: yarn
-
       - name: Run Yarn Build
         working-directory: themes/zamiokulkas
-        run: yarn build
+        run: yarn install && yarn run build:production
