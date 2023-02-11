@@ -3,25 +3,25 @@
     "description": "WPE optimized composer",
     "type": "project",
     "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "advanced-custom-fields/advanced-custom-fields-pro",
-                "version": "6.0.5",
-                "type": "wordpress-plugin",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_ACF_KEY}&t={%VERSION}"
-                }
-            }
-        },
+        // {
+        //     "type": "package",
+        //     "package": {
+        //         "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        //         "version": "6.0.5",
+        //         "type": "wordpress-plugin",
+        //         "dist": {
+        //             "type": "zip",
+        //             "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_ACF_KEY}&t={%VERSION}"
+        //         }
+        //     }
+        // },
         {
             "type": "composer",
             "url": "https://wpackagist.org"
         }
     ],
     "require": {
-        "advanced-custom-fields/advanced-custom-fields-pro": "*",
+        // "advanced-custom-fields/advanced-custom-fields-pro": "*",
         "composer/installers": "~1.0",
         "ffraenz/private-composer-installer": "^5.0",
         "wpackagist-plugin/duplicate-post": "^4.5",
