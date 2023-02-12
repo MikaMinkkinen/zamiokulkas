@@ -4,7 +4,7 @@ Playgound for the WP Engine hosted WP project.
 
 ## Installation
 
-Local + WP Engine
+Local + WP Engine + ACF
 
 ## Contributing
 
