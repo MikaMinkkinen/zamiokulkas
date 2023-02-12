@@ -51,6 +51,7 @@ Thumbs.db
 #---------------------------
 # Other
 #---------------------------
+auth.json
 /ai1wm-backups
 /cache
 
