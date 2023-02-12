@@ -22,10 +22,7 @@ jobs:
           SCRIPT: wp-content/config/post-deploy.sh
 
       # Remove default plugins and themes
-      - run: rm wp-content/plugins/hello.php
-      - run: rm -rf wp-content/plugins/akismet
-      - run: rm -rf wp-content/plugins/genesis-blocks
-      - run: rm -rf wp-content/themes/twentynineteen
+      - run: rm -rf wp-content/plugins/*
       - run: rm -rf wp-content/themes/twentytwenty
       - run: rm -rf wp-content/themes/twentytwentyone
       - run: rm -rf wp-content/themes/twentytwentytwo
