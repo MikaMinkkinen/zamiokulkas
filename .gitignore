@@ -7,7 +7,7 @@
 # WordPress themes - remember add custom themes and plugins in the config/include.txt file too
 #---------------------------
 /themes/
-!/themes/zamiokulkas/
+!/themes/zamiokulkas
 
 #---------------------------
 # WordPress plugins
