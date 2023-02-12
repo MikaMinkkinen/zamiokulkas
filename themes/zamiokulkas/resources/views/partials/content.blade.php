@@ -1,6 +1,6 @@
 <article @php(post_class())>
   <header>
-    <h2 class="entry-title">
+    <h2 class="entry-title text-3xl font-bold underline">
       <a href="{{ get_permalink() }}">
         {!! $title !!}
       </a>
