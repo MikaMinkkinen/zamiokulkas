@@ -18,7 +18,7 @@
         "wpackagist-plugin/duplicate-post": "*",
         "wpackagist-plugin/svg-support": "*",
         "wpackagist-plugin/wordpress-seo": "*",
-        "wpengine/advanced-custom-fields-pro": "*"
+        "wpengine/advanced-custom-fields-pro": "^6.0"
     },
     "extra": {
         "installer-paths": {
